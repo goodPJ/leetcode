@@ -21,7 +21,7 @@ public:
             }
             num_map[nums[i]] = i;
         }
-        return {}; // 如果没有找到（LeetCode假设总有解）
+        return {}; // should never reach here as per problem statement
     };
 };
 // @lc code=end
